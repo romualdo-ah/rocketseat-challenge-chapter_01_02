@@ -1,7 +1,6 @@
 .container {
   max-width: 52.5rem;
   width: 100%;
-
   margin: 0 auto;
 }
 
@@ -9,7 +8,6 @@ header {
   span.category {
     display: block;
     margin-top: 2rem;
-
     font-size: 2.25rem;
     font-weight: 600;
     color: var(--gray);
@@ -17,6 +15,8 @@ header {
 
   span {
     color: var(--white);
+    animation: container_animation 1.8s ease-out;
+
   }
 }
 
@@ -29,5 +29,14 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 4.75rem;
     list-style: none;
+  }
+}
+@keyframes container_animation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
