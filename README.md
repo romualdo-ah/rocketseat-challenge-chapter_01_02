@@ -1,5 +1,5 @@
 # rocketseat-challenge-chapter_01_02
-## Para ver em produção clique 😏👉 <a href="https://github.com/romualdo-ah/rocketseat-chapter_01_02_api">Desafio componetização de aplicação</a>
+## Para ver em produção clique 😏👉 <a href="https://epic-allen-0e21ba.netlify.app/">Desafio componetização de aplicação</a>
 
 O principal objetivo é refatorar uma página para listagem de filmes de acordo com gênero.
 
